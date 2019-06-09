@@ -554,3 +554,26 @@ h6.subhead {
 		}
 	}
 }
+.home-section-1 {
+	background-image: url("chris-lawton-6931-unsplash.jpg");
+	background-position: center center;
+	background-size: cover;
+	height: 700px;
+	h1 {
+		text-align: center;
+	}
+	p {
+		text-align: center;
+	}
+}
+.home-section-1-content {
+	margin:auto;
+}
+.container {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.main-container {
+	margin: 0;
+}

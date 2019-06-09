@@ -37,11 +37,7 @@
     <div class="main-container" id="middle">
       <div class="main container clearfix {% if site.has_background_image? %}well well-lg{% endif %}">
 
-        {% if request.is_sidebar? %}
-        {% include "columns_2" %}
-        {% else %}
         {% include "columns_1" %}
-        {% endif %}
 
       </div>
       <!-- .main -->
