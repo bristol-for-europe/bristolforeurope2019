@@ -14,7 +14,12 @@
     <script type="text/javascript">
       NB.appConfig.userIsLoggedIn = {{request.logged_in?}};
     </script>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+    </style>
   </head>
+
   <body class="aware-theme v2-theme {{ page.page_class_name }} page-{{ request.template | replace: '_', '-' }} js">
 
     {% include "nav" %}
@@ -106,4 +111,3 @@
 
   </body>
 </html>
-

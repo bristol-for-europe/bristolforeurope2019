@@ -24,9 +24,14 @@
         <span class="icon-bar"></span>
       </button>
       {% if site.has_meta_image? %}
-        <a class="navbar-brand" href="/"><img alt="{{ site.long_name }}" src="{{ site.meta_image_url }}"></a>
+        <a class="navbar-brand" href="/">
+          <img alt="{{ site.long_name }}" src="{{ settings.official_name }}">
+        </a>
       {% else %}
-        <a class="navbar-brand" href="/">{{ site.long_name }}</a>
+        <a class="navbar-brand" href="/">
+          <img alt="{{ settings.official_name }}" src="circle-logo.png"/>
+          {{ settings.official_name }}
+        </a>
       {% endif %}
     </div>
     <div id="menu-collapse" class="collapse navbar-collapse">
